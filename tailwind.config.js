@@ -15,10 +15,11 @@ module.exports = {
       body: "13px",
     },
     colors: {
+      "white": "#FFFFFF",
       "very-dark-grayish-blue": "hsl(217, 19%, 35%)",
       "desaturated-dark-blue": "hsl(214, 17%, 51%)",
       "grayish-blue": "hsl(212, 23%, 69%)",
-      "light-grayish-blue": "hsl(212, 46%, 95%)",
+      "light-grayish-blue": "hsl(212, 16%, 92%)",
     },
     fontFamily: {
       manrope: ["Manrope", "sans-serif"]
