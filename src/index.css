@@ -12,5 +12,21 @@
 }
 
 .zoom-container {
-    overflow: hidden /*garante que a imagem não ultrapasse do tamanho da div */;
+    overflow: hidden ;
+    /* garante que a imagem não ultrapasse do tamanho da div; */
+}
+
+@media (min-width: 1440px) {
+    .arrow::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid hsl(217, 19%, 35%); /* Altere para a cor da sua div */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+    }
 }
